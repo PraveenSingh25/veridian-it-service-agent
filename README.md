@@ -1,7 +1,4 @@
 # Veridian Corp — Internal Service Agent (IT Support)
-> **Candidate Assignment for Product Engineering / AI**  
-> *Operating Context: Veridian Corp, Week of Monday, 21 September 2026 – Friday, 25 September 2026*  
-> *Strict Grounding Mandate: Zero Hallucination | 100% Policy Grounded*
 
 [![Tests](https://img.shields.io/badge/Tests-21%2F21%20Passed-brightgreen)](tests/)
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://python.org)
@@ -10,7 +7,7 @@
 
 ---
 
-## 🌟 Executive Summary
+## Executive Summary
 
 This project implements an autonomous, enterprise-grade **IT Support Service Agent** for **Veridian Corp**. Built for a **Product Engineering / AI** role evaluation, the system automates IT ticket triage, employee guidance, cross-department routing, and security containment while strictly adhering to organizational policies and historical ticket precedents.
 
@@ -26,7 +23,7 @@ This project implements an autonomous, enterprise-grade **IT Support Service Age
 
 ---
 
-## 🚀 One-Command Local Run for Reviewers
+##  One-Command Local Run for Reviewers
 
 ### 1. Launch the Interactive Web Dashboard (Streamlit)
 ```bash
@@ -101,7 +98,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ---
 
-## ⚖️ Policy Conflict Resolution: KB-03 vs Finance Asset Policy
+##  Policy Conflict Resolution: KB-03 vs Finance Asset Policy
 
 | Policy Source | Clause / Rule | Condition |
 | :--- | :--- | :--- |
@@ -115,7 +112,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ---
 
-## 📊 Summary of Request Triage Decisions (REQ-01 to REQ-15)
+## Summary of Request Triage Decisions (REQ-01 to REQ-15)
 
 | ID | Employee | Request Summary | Action Type | Department | Citations | Precedent |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -137,7 +134,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ---
 
-## 🎫 Active Ticket Queue Triage (Section 3)
+## Active Ticket Queue Triage (Section 3)
 
 | Ticket ID | Employee | Initial Status | Recommended Action | Routed Department | SLA Tracking |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -148,7 +145,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 veridian-it-service-agent/
@@ -177,7 +174,7 @@ veridian-it-service-agent/
 
 ---
 
-## 🧪 Evaluation & Test Results
+##  Evaluation & Test Results
 
 ```
 test_grounding_citation_integrity ... ok
@@ -202,11 +199,4 @@ test_tk_1044_active_non_catalog_software ... ok
 test_tk_1047_active_home_office_equipment ... ok
 test_tk_1048_active_phishing_investigation ... ok
 
-----------------------------------------------------------------------
-Ran 21 tests in 0.005s
 
-OK (100% Pass Rate)
-```
-
----
-*Developed for Veridian Corp IT Support Evaluation — Product Engineering / AI.*
