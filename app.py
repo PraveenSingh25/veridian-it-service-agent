@@ -78,27 +78,29 @@ st.markdown("""
         font-weight: 600;
     }
     .callout-box {
-        background-color: #F8FAFC;
+        background-color: rgba(59, 130, 246, 0.12);
         border-left: 5px solid #3B82F6;
         padding: 14px;
         border-radius: 6px;
         margin: 10px 0;
+        color: inherit;
     }
     .warning-box {
-        background-color: #FEF2F2;
+        background-color: rgba(239, 68, 68, 0.15);
         border-left: 5px solid #EF4444;
         padding: 14px;
         border-radius: 6px;
-        color: #991B1B;
         margin: 10px 0;
         font-weight: 600;
+        color: inherit;
     }
     .reconciliation-box {
-        background-color: #F0FDF4;
+        background-color: rgba(16, 185, 129, 0.12);
         border-left: 5px solid #10B981;
         padding: 14px;
         border-radius: 6px;
         margin: 10px 0;
+        color: inherit;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -126,15 +128,6 @@ with st.sidebar:
     st.metric(label="Knowledge Base Articles", value=len(kb_store.policies))
     st.metric(label="Total Tickets Monitored", value=len(kb_store.tickets))
 
-    st.markdown("---")
-    st.markdown("### Submission Architecture")
-    st.markdown(
-        "- **Role:** Product Engineering / AI\n"
-        "- **Engine:** Grounded Deterministic & Precedent Engine\n"
-        "- **Anti-Hallucination:** Strict Source Verification\n"
-        "- **Conflict Resolver:** KB-03 vs Asset Management\n"
-        "- **CLI Command:** `python cli.py --eval`"
-    )
 
 # Header
 st.markdown('<div class="main-header">🛡️ Veridian IT Support Service Agent</div>', unsafe_allow_html=True)
