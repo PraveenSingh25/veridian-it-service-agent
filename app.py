@@ -20,7 +20,7 @@ st.set_page_config(
     page_title="Veridian IT Support Agent",
     page_icon="🛡️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # Custom Styling
@@ -114,24 +114,10 @@ def get_agent():
 agent = get_agent()
 kb_store = agent.kb_store
 
-# Sidebar
-with st.sidebar:
-    st.image("https://img.icons8.com/fluency/96/shield.png", width=64)
-    st.title("Veridian Corp")
-    st.caption("Internal Service Agent (IT Support)")
-    st.markdown("**Context:** Week of Mon 21 Sep – Fri 25 Sep 2026")
-    st.markdown("---")
-
-    st.subheader("System Health & Grounding")
-    st.metric(label="Grounding Integrity", value="100%", delta="Strict KB")
-    st.metric(label="Hallucination Rate", value="0.0%", delta="0 fabricated")
-    st.metric(label="Knowledge Base Articles", value=len(kb_store.policies))
-    st.metric(label="Total Tickets Monitored", value=len(kb_store.tickets))
-
-
 # Header
 st.markdown('<div class="main-header">🛡️ Veridian IT Support Service Agent</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Internal Service Agent (IT Support)</div>', unsafe_allow_html=True)
+st.caption("🏢 **Company:** Veridian Corp &nbsp;|&nbsp; 📅 **Context:** Week of Mon 21 Sep – Fri 25 Sep 2026")
 
 # Tabs
 tab_playground, tab_requests, tab_tickets, tab_kb, tab_benchmarks = st.tabs([
