@@ -138,13 +138,7 @@ with st.sidebar:
 
 # Header
 st.markdown('<div class="main-header">🛡️ Veridian IT Support Service Agent</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="sub-header">'
-    'Enterprise-grade IT Service Agent strictly grounded in Veridian Corp policies (KB-01–KB-10, Asset Management Policy) '
-    'and historical ticket precedents (TK-1042–TK-1051).'
-    '</div>', 
-    unsafe_allow_html=True
-)
+st.markdown('<div class="sub-header">Internal Service Agent (IT Support)</div>', unsafe_allow_html=True)
 
 # Tabs
 tab_playground, tab_requests, tab_tickets, tab_kb, tab_benchmarks = st.tabs([
