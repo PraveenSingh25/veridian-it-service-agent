@@ -38,6 +38,8 @@ pip install -r requirements.txt
 
 # Run the Streamlit web application
 streamlit run app.py
+
+2. streamlit hosted link - https://veridian-it-service-agent-guphrwwfdxqerjpak668gd.streamlit.app
 ```
 > The dashboard will launch at `http://localhost:8501`.  
 > Explore the **Live Agent Playground**, the **Employee Requests Queue**, the **Ticket Queue Manager**, the **Knowledge Base & Policy Conflict Matrix**, and run the **Automated Benchmark Scorecard** in 1 click.
