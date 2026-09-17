@@ -348,9 +348,9 @@ Per assignment prompt:
 > *"Wherever possible, your submission should be something an AIONOS reviewer can open and try themselves — a shareable link, a simple hosted demo, or a clearly documented one-command local run (e.g. GitHub)."*
 
 ### Option A: Web Interactive Dashboard (Recommended)
-```powershell
+```bash
 # Navigate to project directory
-cd C:\Users\Praveen\.gemini\antigravity\scratch\veridian-it-service-agent
+cd veridian-it-service-agent
 
 # Launch the Streamlit interactive prototype
 streamlit run app.py

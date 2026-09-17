@@ -29,9 +29,15 @@ This project implements an autonomous, enterprise-grade **IT Support Service Age
 ## 🚀 One-Command Local Run for Reviewers
 
 ### 1. Launch the Interactive Web Dashboard (Streamlit)
-```powershell
+```bash
+# Clone the repository
+git clone https://github.com/PraveenSingh25/veridian-it-service-agent.git
+
 # Navigate to project directory
-cd C:\Users\Praveen\.gemini\antigravity\scratch\veridian-it-service-agent
+cd veridian-it-service-agent
+
+# Install dependencies
+pip install -r requirements.txt
 
 # Run the Streamlit web application
 streamlit run app.py
