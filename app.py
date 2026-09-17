@@ -117,7 +117,7 @@ kb_store = agent.kb_store
 # Header
 st.markdown('<div class="main-header">🛡️ Veridian IT Support Service Agent</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Internal Service Agent (IT Support)</div>', unsafe_allow_html=True)
-st.caption("🏢 **Company:** Veridian Corp &nbsp;|&nbsp; 📅 **Context:** Week of Mon 21 Sep – Fri 25 Sep 2026")
+
 
 # Tabs
 tab_playground, tab_requests, tab_tickets, tab_kb, tab_benchmarks = st.tabs([
