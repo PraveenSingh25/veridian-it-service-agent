@@ -1,10 +1,5 @@
 # Veridian Corp — Internal Service Agent (IT Support)
 
-[![Tests](https://img.shields.io/badge/Tests-21%2F21%20Passed-brightgreen)](tests/)
-[![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit%201.56-red)](https://streamlit.io)
-[![Grounding](https://img.shields.io/badge/Grounding-100%25%20Verified-success)]()
-
 ---
 
 ## Executive Summary
