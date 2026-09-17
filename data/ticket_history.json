@@ -1,0 +1,106 @@
+[
+  {
+    "id": "TK-1042",
+    "employee": "R. Verma",
+    "issue_summary": "VPN credential expired",
+    "status": "Resolved (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "KB-02",
+    "precedent_takeaway": "Expired VPN credentials for full-time staff can be renewed directly via self-service without manager re-approval."
+  },
+  {
+    "id": "TK-1043",
+    "employee": "S. Iyer",
+    "issue_summary": "Laptop replacement (3.2 yrs old)",
+    "status": "Approved — pending fulfillment (active)",
+    "is_active": true,
+    "actionable": true,
+    "policy_mapping": "KB-03, POL-ASSET-01",
+    "recommended_routing": "IT Hardware Fulfillment",
+    "precedent_takeaway": "Laptops over 3 years old are approved under KB-03 with Finance early-refresh concurrence; fulfillment proceeds with a 2-week lead time window."
+  },
+  {
+    "id": "TK-1044",
+    "employee": "A. Khan",
+    "issue_summary": "Non-catalog software request",
+    "status": "Pending Security review (active)",
+    "is_active": true,
+    "actionable": true,
+    "policy_mapping": "KB-04",
+    "recommended_routing": "IT Security",
+    "precedent_takeaway": "Non-catalog software must undergo 3-5 business day IT Security evaluation before software installation approval."
+  },
+  {
+    "id": "TK-1045",
+    "employee": "P. Joshi",
+    "issue_summary": "Mailbox quota increase",
+    "status": "Approved at 35GB (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "KB-06",
+    "precedent_takeaway": "Mailbox expansions beyond default 25GB require manager approval and are permitted up to the 50GB policy ceiling (here approved at 35GB)."
+  },
+  {
+    "id": "TK-1046",
+    "employee": "M. Das",
+    "issue_summary": "Printer paper jam, floor 2",
+    "status": "Resolved (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "KB-05",
+    "precedent_takeaway": "Persistent printer queue or jam errors after spooler restart require technician dispatch with asset tag logged."
+  },
+  {
+    "id": "TK-1047",
+    "employee": "K. Singh",
+    "issue_summary": "Home office equipment request",
+    "status": "Pending Finance (active)",
+    "is_active": true,
+    "actionable": true,
+    "policy_mapping": "KB-10",
+    "recommended_routing": "Finance",
+    "precedent_takeaway": "WFH equipment (>3 days remote) requires manager sign-off and Finance approval before IT initiates shipping."
+  },
+  {
+    "id": "TK-1048",
+    "employee": "T. Rao",
+    "issue_summary": "Phishing email reported",
+    "status": "Escalated to Security — under investigation (active)",
+    "is_active": true,
+    "actionable": true,
+    "policy_mapping": "KB-09",
+    "recommended_routing": "IT Security (security@veridian-corp.example)",
+    "precedent_takeaway": "Suspected phishing reports are escalated immediately to IT Security for quarantine and domain blocking; must never be forwarded."
+  },
+  {
+    "id": "TK-1049",
+    "employee": "V. Nambiar",
+    "issue_summary": "Password reset",
+    "status": "Resolved (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "KB-01",
+    "precedent_takeaway": "Account lockouts (>5 attempts) require IT Service Desk manual unlock; standard resets utilize self-service portal."
+  },
+  {
+    "id": "TK-1050",
+    "employee": "J. Fernandes",
+    "issue_summary": "Admin access request",
+    "status": "Rejected — no business justification provided (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "Access Control Precedent / KB-08",
+    "precedent_takeaway": "Privileged/admin server access requests without verifiable business justification and owner approval are strictly rejected."
+  },
+  {
+    "id": "TK-1051",
+    "employee": "L. Menon",
+    "issue_summary": "Guest Wi-Fi issued",
+    "status": "Resolved (closed)",
+    "is_active": false,
+    "actionable": false,
+    "policy_mapping": "KB-07",
+    "precedent_takeaway": "Guest Wi-Fi is self-service at front-desk kiosk valid for 24 hours without requiring IT tickets."
+  }
+]
